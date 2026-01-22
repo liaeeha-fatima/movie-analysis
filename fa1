@@ -1,0 +1,7 @@
+import pandas as pd
+
+# خواندن فایل CSV
+df = pd.read_csv("movies.csv")
+
+# مشاهده 5 ردیف اول
+print(df.head())
